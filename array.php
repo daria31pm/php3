@@ -55,7 +55,7 @@ $opel = [
     
 
     function printCarInfo($brand, $car) {
-        echo "$brand - {$car['model']} - {$car['speed, km/h']} - {$car['doors']} - {$car['year']}<br>";
+        echo "$brand - ${car['model']} - ${car['speed, km/h']} - ${car['doors']} - ${car['year']}<br>";
     }
     
 
